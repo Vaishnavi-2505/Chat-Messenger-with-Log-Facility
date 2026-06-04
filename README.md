@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project is a Java-based peer-to-peer chat application that enables real-time text-based communication
+- This project is a Java-based peer-to-peer chat application that enables real-time text-based communication
 between users using Java Socket Programming.
-Along with providing basic chat functionality, it also maintains a log file that records all conversation details in a
++ Along with providing basic chat functionality, it also maintains a log file that records all conversation details in a
 periodic fashion for future reference.
 The application is platform and architecture independent, running on any system with a Java Runtime
 Environment (JRE).
