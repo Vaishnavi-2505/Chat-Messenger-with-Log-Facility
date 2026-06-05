@@ -57,10 +57,9 @@ Environment (JRE).
    
    - In the first terminal, run the server:
 
-     '''
-     java ChatServerX
-     '''
-   
+```text
+Chat Messenger with Log Facility is a Java-based application.
+```   
   - In the second terminal, run the client:
 
        - java ChatClientX
