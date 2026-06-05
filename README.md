@@ -57,13 +57,14 @@ Environment (JRE).
    
    - In the first terminal, run the server:
 
-```text
-Chat Messenger with Log Facility is a Java-based application.
-```   
+   ```text
+   java ChatServerX
+   ```   
   - In the second terminal, run the client:
-
-       - java ChatClientX
-   
+    
+   ```text
+   java ChatClientX
+   ```   
 3. Start chatting:
 
   - The client sends the first message.
