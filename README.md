@@ -18,8 +18,9 @@ Environment (JRE).
 # Files Included:
 
 | File Name         | 	Description                                |
-| ChatServerX.java	| Java class for the chat server functionality |
-ChatClientX.java	  | Java class for the chat client functionality |
+|-------------------|----------------------------------------------|
+| ChatServerX.java  | Java class for the chat server functionality |
+| ChatClientX.java  | Java class for the chat client functionality |
 
 ## Key Features
 
@@ -46,6 +47,7 @@ ChatClientX.java	  | Java class for the chat client functionality |
 ◦ Can be extended to support group chat, file sharing, or encryption.
 
 # How to Compile and Run:
+
 1. Compile the Java source files using terminal/command prompt:
    
    javac ChatServerX.java
@@ -53,13 +55,13 @@ ChatClientX.java	  | Java class for the chat client functionality |
 
 2. Open two separate terminal windows:
    
-   -In the first terminal, run the server:
+   - In the first terminal, run the server:
 
-   java ChatServerX
+       - java ChatServerX
    
-  In the second terminal, run the client:
+  - In the second terminal, run the client:
 
-   java ChatClientX
+       - java ChatClientX
    
 3. Start chatting:
 
@@ -68,15 +70,20 @@ ChatClientX.java	  | Java class for the chat client functionality |
   - To end the conversation, type "end" in the client terminal.
 
 # Sample Output:
-#Server Terminal:
+
+# Server Terminal:
 
 Marvellous Server is waiting at port number 5151
+
 Marvellous Server successfully connected with the client
+
 ------ Marvellous Chat Messenger is Ready to Use ------
+
 Client says: Hello
 Enter the message for client: Hi, welcome!
 
 # Client Terminal:
+
 Client is ready to connect with server
 Marvellous client is successfully connected with server
 ------ Marvellous Chat Messenger is Ready to Use ------
@@ -85,13 +92,17 @@ Server says: Hi, welcome!
 Enter message for server:
 
 # Protocol Used:
+
 TCP/IP socket communication
 Port: 5151
 Communication: Synchronous (one message at a time)
 
 # Termination:
+
 To end the session, type "end" from the client side.
 The server will stop interaction when client exits.
+
+
 
 
 
