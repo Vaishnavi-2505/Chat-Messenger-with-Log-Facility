@@ -87,22 +87,27 @@ Enter the message for client: Hi, welcome!
 # Client Terminal:
 
 Client is ready to connect with server
+
 Marvellous client is successfully connected with server
+
 ------ Marvellous Chat Messenger is Ready to Use ------
+
 Hello
+
 Server says: Hi, welcome!
+
 Enter message for server:
 
 # Protocol Used:
 
-TCP/IP socket communication
-Port: 5151
-Communication: Synchronous (one message at a time)
+  - TCP/IP socket communication
+  - Port: 5151
+  - Communication: Synchronous (one message at a time)
 
 # Termination:
 
-To end the session, type "end" from the client side.
-The server will stop interaction when client exits.
+- To end the session, type "end" from the client side.
+- The server will stop interaction when client exits.
 
 
 
