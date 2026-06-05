@@ -57,7 +57,9 @@ Environment (JRE).
    
    - In the first terminal, run the server:
 
-     > java ChatServerX
+     '''
+      java ChatServerX
+     '''
    
   - In the second terminal, run the client:
 
