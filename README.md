@@ -1,5 +1,9 @@
 # Chat-Messenger-with-Log-Facility
 
+Project Type : Java Console Application
+Modules      : ChatServerX.java, ChatClientX.java
+Author       : Vaishnavi Shingare
+
 ## Project Overview
 
 This project is a Java-based peer-to-peer chat application that enables real-time text-based communication
@@ -10,6 +14,12 @@ periodic fashion for future reference.
 
 The application is platform and architecture independent, running on any system with a Java Runtime
 Environment (JRE).
+
+# Files Included:
+
+| File Name         | 	Description                                |
+| ChatServerX.java	| Java class for the chat server functionality |
+ChatClientX.java	  | Java class for the chat client functionality |
 
 ## Key Features
 
@@ -35,14 +45,65 @@ Environment (JRE).
 
 ◦ Can be extended to support group chat, file sharing, or encryption.
 
-## Learning Outcomes
-• Practical knowledge of Java Socket Programming (TCP/IP).
+# How to Compile and Run:
+1. Compile the Java source files using terminal/command prompt:
+   
+   javac ChatServerX.java
+   javac ChatClientX.java
 
-• Hands-on experience with network programming concepts (client-server, peer-to-peer).
+2. Open two separate terminal windows:
+   
+   -In the first terminal, run the server:
 
-• Implementation of logging mechanisms in applications.
+   java ChatServerX
+   
+  In the second terminal, run the client:
 
-• Understanding of platform-independent communication in Java.
+   java ChatClientX
+   
+3. Start chatting:
 
-• Foundation for building scalable chat/messaging applications.
+  - The client sends the first message.
+  - The server responds to the message.
+  - To end the conversation, type "end" in the client terminal.
+
+# Sample Output:
+#Server Terminal:
+
+Marvellous Server is waiting at port number 5151
+Marvellous Server successfully connected with the client
+------ Marvellous Chat Messenger is Ready to Use ------
+Client says: Hello
+Enter the message for client: Hi, welcome!
+
+# Client Terminal:
+Client is ready to connect with server
+Marvellous client is successfully connected with server
+------ Marvellous Chat Messenger is Ready to Use ------
+Hello
+Server says: Hi, welcome!
+Enter message for server:
+
+# Protocol Used:
+TCP/IP socket communication
+Port: 5151
+Communication: Synchronous (one message at a time)
+
+# Termination:
+To end the session, type "end" from the client side.
+The server will stop interaction when client exits.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
