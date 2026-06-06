@@ -1,8 +1,8 @@
 # Chat-Messenger-with-Log-Facility
 
-Project Type : Java Console Application
-Modules      : ChatServerX.java, ChatClientX.java
-Author       : Vaishnavi Shingare
+#### Project Type : Java Console Application
+#### Modules      : ChatServerX.java, ChatClientX.java
+#### Author       : Vaishnavi Shingare
 
 ## Project Overview
 
@@ -60,7 +60,7 @@ Environment (JRE).
    ```text
    java ChatServerX
    ```   
-  - In the second terminal, run the client:
+   - In the second terminal, run the client:
     
    ```text
    java ChatClientX
