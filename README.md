@@ -1,6 +1,8 @@
 # Chat-Messenger-with-Log-Facility
 
-##### Project Type : Java Console Application  ##### Modules      : ChatServerX.java, ChatClientX.java  ##### Author       : Vaishnavi Shingare
+##### Project Type : Java Console Application
+##### Modules      : ChatServerX.java, ChatClientX.java 
+##### Author       : Vaishnavi Shingare
 
 ## Project Overview
 
